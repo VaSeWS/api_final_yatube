@@ -48,14 +48,14 @@ python3 yatube_api/manage.py runserver
 Ответ:
 ```json
 [
-		{
-			"id": 0,
-			"author": "string",
-			"text": "string",
-			"pub_date": "2019-08-24T14:15:22Z",
-			"image": "string",
-			"group": 0
-		}
+	{
+		"id": 0,
+		"author": "string",
+		"text": "string",
+		"pub_date": "2019-08-24T14:15:22Z",
+		"image": "string",
+		"group": 0
+	}
 ]
 ```
 
@@ -63,20 +63,20 @@ python3 yatube_api/manage.py runserver
 Payload:
 ```json
 {
-		"text": "string",
-		"image": "string",
-		"group": 0
+	"text": "string",
+	"image": "string",
+	"group": 0
 }
 ```
 Ответ:
 ```json
 {
-		"id": 0,
-		"author": "string",
-		"text": "string",
-		"pub_date": "2019-08-24T14:15:22Z",
-		"image": "string",
-		"group": 0
+	"id": 0,
+	"author": "string",
+	"text": "string",
+	"pub_date": "2019-08-24T14:15:22Z",
+	"image": "string",
+	"group": 0
 }
 ```
 Полная документация по запросам доступна по адресу `http://127.0.0.1:8000/redoc/`
