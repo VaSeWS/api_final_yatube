@@ -1,8 +1,6 @@
-#Yatube API
-API для социальной сети YaTube
-### Как запустить проект:
-
-Клонировать репозиторий и перейти в него в командной строке:
+# Yatube API
+API for social network YaTube
+### How to launch:
 
 ```
 git clone https://github.com/VaSeWS/api_final_yatube
@@ -12,7 +10,7 @@ git clone https://github.com/VaSeWS/api_final_yatube
 cd api_final_yatube
 ```
 
-Cоздать и активировать виртуальное окружение:
+Create virtual environment:
 
 ```
 python3 -m venv venv
@@ -26,26 +24,26 @@ source venv/bin/activate
 python3 -m pip install --upgrade pip
 ```
 
-Установить зависимости из файла requirements.txt:
+install dependencies from requirements.txt:
 
 ```
 pip install -r requirements.txt
 ```
 
-Выполнить миграции:
+Migrate:
 
 ```
 python3 yatube_api/manage.py migrate
 ```
 
-Запустить проект:
+Launch the project:
 
 ```
 python3 yatube_api/manage.py runserver
 ```
-###Примеры запросов:
+### Requests exapmles:
 1. `GET: api/v1/posts/`
-Ответ:
+Responce:
 ```json
 [
 	{
@@ -68,7 +66,7 @@ Payload:
 	"group": 0
 }
 ```
-Ответ:
+Responce:
 ```json
 {
 	"id": 0,
@@ -79,4 +77,4 @@ Payload:
 	"group": 0
 }
 ```
-Полная документация по запросам доступна по адресу `http://127.0.0.1:8000/redoc/`
+Full requests documentation avaliable at `http://127.0.0.1:8000/redoc/` after launching.
